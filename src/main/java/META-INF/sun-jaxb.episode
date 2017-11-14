@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+此文件是由 JavaTM Architecture for XML Binding (JAXB) 引用实现 v2.2.11 生成的
+请访问 <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+在重新编译源模式时, 对此文件的所有修改都将丢失。
+生成时间: 2017.09.28 时间 08:59:23 AM CST 
+
+  -->
+  <bindings xmlns:tns="http://impl.webservice.booking.icarefx.net" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="net.dexcoder.ws"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:UpdateUserInfoService">
+      <class ref="net.dexcoder.ws.UpdateUserInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:UpdateUserInfoServiceResponse">
+      <class ref="net.dexcoder.ws.UpdateUserInfoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:UnBindUserInfoService">
+      <class ref="net.dexcoder.ws.UnBindUserInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:UnBindUserInfoServiceResponse">
+      <class ref="net.dexcoder.ws.UnBindUserInfoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:SubmitOrderInfoReferralService">
+      <class ref="net.dexcoder.ws.SubmitOrderInfoReferralService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:SubmitOrderInfoReferralServiceResponse">
+      <class ref="net.dexcoder.ws.SubmitOrderInfoReferralServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:SubmitOrderByUserInfoService">
+      <class ref="net.dexcoder.ws.SubmitOrderByUserInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:SubmitOrderByUserInfoServiceResponse">
+      <class ref="net.dexcoder.ws.SubmitOrderByUserInfoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:SetUserToDefaultService">
+      <class ref="net.dexcoder.ws.SetUserToDefaultService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:SetUserToDefaultServiceResponse">
+      <class ref="net.dexcoder.ws.SetUserToDefaultServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:RegisterOrUpdateUserInfoService">
+      <class ref="net.dexcoder.ws.RegisterOrUpdateUserInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:RegisterOrUpdateUserInfoServiceResponse">
+      <class ref="net.dexcoder.ws.RegisterOrUpdateUserInfoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:RegisterOrUpdateMemberInfoService">
+      <class ref="net.dexcoder.ws.RegisterOrUpdateMemberInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:RegisterOrUpdateMemberInfoServiceResponse">
+      <class ref="net.dexcoder.ws.RegisterOrUpdateMemberInfoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:QueryUserInfoService">
+      <class ref="net.dexcoder.ws.QueryUserInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:QueryUserInfoServiceResponse">
+      <class ref="net.dexcoder.ws.QueryUserInfoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:QueryTimeSegmentListService">
+      <class ref="net.dexcoder.ws.QueryTimeSegmentListService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:QueryTimeSegmentListServiceResponse">
+      <class ref="net.dexcoder.ws.QueryTimeSegmentListServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:QueryOrderInfoListService">
+      <class ref="net.dexcoder.ws.QueryOrderInfoListService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:QueryOrderInfoListServiceResponse">
+      <class ref="net.dexcoder.ws.QueryOrderInfoListServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:QueryMemberInfoService">
+      <class ref="net.dexcoder.ws.QueryMemberInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:QueryMemberInfoServiceResponse">
+      <class ref="net.dexcoder.ws.QueryMemberInfoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:OrderPayInfoService">
+      <class ref="net.dexcoder.ws.OrderPayInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:OrderPayInfoServiceResponse">
+      <class ref="net.dexcoder.ws.OrderPayInfoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:OrderPayCompletedService">
+      <class ref="net.dexcoder.ws.OrderPayCompletedService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:OrderPayCompletedServiceResponse">
+      <class ref="net.dexcoder.ws.OrderPayCompletedServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:OrderCancelInfoService">
+      <class ref="net.dexcoder.ws.OrderCancelInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:OrderCancelInfoServiceResponse">
+      <class ref="net.dexcoder.ws.OrderCancelInfoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:OrderCancelService">
+      <class ref="net.dexcoder.ws.OrderCancelService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:OrderCancelServiceResponse">
+      <class ref="net.dexcoder.ws.OrderCancelServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ApplyMediCardIdService">
+      <class ref="net.dexcoder.ws.ApplyMediCardIdService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ApplyMediCardIdServiceResponse">
+      <class ref="net.dexcoder.ws.ApplyMediCardIdServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetUsersByBindTypeAndCodeService">
+      <class ref="net.dexcoder.ws.GetUsersByBindTypeAndCodeService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetUsersByBindTypeAndCodeServiceResponse">
+      <class ref="net.dexcoder.ws.GetUsersByBindTypeAndCodeServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetOrderNumInfoService">
+      <class ref="net.dexcoder.ws.GetOrderNumInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetOrderNumInfoServiceResponse">
+      <class ref="net.dexcoder.ws.GetOrderNumInfoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetOrderDetailInfoService">
+      <class ref="net.dexcoder.ws.GetOrderDetailInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetOrderDetailInfoServiceResponse">
+      <class ref="net.dexcoder.ws.GetOrderDetailInfoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetHospitalsByCityCodeService">
+      <class ref="net.dexcoder.ws.GetHospitalsByCityCodeService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetHospitalsByCityCodeServiceResponse">
+      <class ref="net.dexcoder.ws.GetHospitalsByCityCodeServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetHospitalInfoService">
+      <class ref="net.dexcoder.ws.GetHospitalInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetHospitalInfoServiceResponse">
+      <class ref="net.dexcoder.ws.GetHospitalInfoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetDoctInfoService">
+      <class ref="net.dexcoder.ws.GetDoctInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetDoctInfoServiceResponse">
+      <class ref="net.dexcoder.ws.GetDoctInfoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetDeptInfoTwoService">
+      <class ref="net.dexcoder.ws.GetDeptInfoTwoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetDeptInfoTwoServiceResponse">
+      <class ref="net.dexcoder.ws.GetDeptInfoTwoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetDeptInfoTopService">
+      <class ref="net.dexcoder.ws.GetDeptInfoTopService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetDeptInfoTopServiceResponse">
+      <class ref="net.dexcoder.ws.GetDeptInfoTopServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CheckMediCardIdService">
+      <class ref="net.dexcoder.ws.CheckMediCardIdService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CheckMediCardIdServiceResponse">
+      <class ref="net.dexcoder.ws.CheckMediCardIdServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:BindUserInfoService">
+      <class ref="net.dexcoder.ws.BindUserInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:BindUserInfoServiceResponse">
+      <class ref="net.dexcoder.ws.BindUserInfoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:AddHosUserInfoService">
+      <class ref="net.dexcoder.ws.AddHosUserInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:AddHosUserInfoServiceResponse">
+      <class ref="net.dexcoder.ws.AddHosUserInfoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetDeptInfoService">
+      <class ref="net.dexcoder.ws.GetDeptInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetDeptInfoServiceResponse">
+      <class ref="net.dexcoder.ws.GetDeptInfoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:QueryWaitLineListService">
+      <class ref="net.dexcoder.ws.QueryWaitLineListService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:QueryWaitLineListServiceResponse">
+      <class ref="net.dexcoder.ws.QueryWaitLineListServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetBedNumInfoService">
+      <class ref="net.dexcoder.ws.GetBedNumInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetBedNumInfoServiceResponse">
+      <class ref="net.dexcoder.ws.GetBedNumInfoServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCardsInfoService">
+      <class ref="net.dexcoder.ws.GetCardsInfoService"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCardsInfoServiceResponse">
+      <class ref="net.dexcoder.ws.GetCardsInfoServiceResponse"/>
+    </bindings>
+  </bindings>
+</bindings>

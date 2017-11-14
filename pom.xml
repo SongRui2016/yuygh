@@ -1,0 +1,72 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.jzxtech</groupId>
+	<artifactId>basedemo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>basedemo</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<spring.springboot.version>1.5.6.RELEASE</spring.springboot.version>
+		<spring.version>4.3.8.RELEASE</spring.version>
+		<spring.security.version>4.3.8.RELEASE</spring.security.version>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.jzxtech</groupId>
+			<artifactId>jzxtech-boot</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<!-- <dependency> <groupId>org.slf4j</groupId> <artifactId>jcl-over-slf4j</artifactId> 
+			<version>1.7.25</version> </dependency> -->
+
+		<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-ws</artifactId>
+		<version>1.4.7.RELEASE</version>
+		<exclusions>
+			<exclusion>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-core</artifactId>
+			</exclusion>
+			<exclusion>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-beans</artifactId>
+			</exclusion>
+			<exclusion>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-context</artifactId>
+			</exclusion>
+			<exclusion>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-aop</artifactId>
+			</exclusion>
+		</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>wsdl4j</groupId>
+			<artifactId>wsdl4j</artifactId>
+			<version>1.6.3</version>
+		</dependency>
+
+	</dependencies>
+
+	<!-- <build> <plugins> <plugin> <groupId>org.jvnet.jaxb2.maven2</groupId> 
+		<artifactId>maven-jaxb2-plugin</artifactId> <executions> <execution> <goals> 
+		<goal>generate</goal> </goals> </execution> </executions> <configuration> 
+		<schemaLanguage>WSDL</schemaLanguage> <generatePackage>net.dexcoder.ws</generatePackage> 
+		<generateDirectory>${basedir}/src/main/java</generateDirectory> <schemas> 
+		<schema> <fileset> Defaults to schemaDirectory. <directory>${basedir}/src/main/resources/schemas</directory> 
+		Defaults to schemaIncludes. <includes> <include>*.wsdl</include> </includes> 
+		Defaults to schemaIncludes <excludes> <exclude>*.xs</exclude> </excludes> 
+		</fileset> <url>http://125.70.9.141:8888/webServiceOrderRegCDS/services/BookingWebServiceImpl?wsdl</url> 
+		</schema> </schemas> </configuration> </plugin> </plugins> </build> -->
+
+</project>

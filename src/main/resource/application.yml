@@ -1,0 +1,26 @@
+server: 
+  port: 8081
+
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://10.255.0.202:5432/postgres?currentSchema=public
+    username: postgres
+    password: 123
+
+logging:
+  level:
+    com:
+      jzxtech: debug
+
+#CAS服务地址  
+cas:
+    server_url: http://10.255.0.220:8089/cas
+    login_url: ${cas.server_url}/login
+    logout_url: ${cas.server_url}/logout?service=${app.server_url}  
+
+#应用访问地址  
+app:
+  server_url: http://127.0.0.1:8081
+  login_url: /login
+  logout_url: /logout
