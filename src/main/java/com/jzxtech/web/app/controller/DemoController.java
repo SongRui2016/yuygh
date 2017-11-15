@@ -79,9 +79,6 @@ public class DemoController {
 		
 
 		System.err.println(re);
-		
-		/**测试git*/
-		System.out.println("这是测试git");
 
 		return re;
 	}
